@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Cms Modals
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Kwik
+ * @package     Kwik_CmsModals
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+  <fieldset name="modal_content" sortOrder="99">
+      <settings>
+          <collapsible>true</collapsible>
+          <label translate="true">Modal Content</label>
+      </settings>
+      <field name="content" formElement="wysiwyg">
+              <argument name="data" xsi:type="array">
+                  <item name="config" xsi:type="array">
+                      <item name="source" xsi:type="string">page</item>
+                  </item>
+              </argument>
+              <settings>
+                  <additionalClasses>
+                      <class name="admin__field-wide">true</class>
+                  </additionalClasses>
+                  <label>Modal Content</label>
+                  <dataScope>modal_content</dataScope>
+              </settings>
+              <formElements>
+                  <wysiwyg>
+                      <settings>
+                          <wysiwyg>true</wysiwyg>
+                      </settings>
+                  </wysiwyg>
+              </formElements>
+          </field>
+    </fieldset>
+    <fieldset name="general" sortOrder="1">
+        <settings>
+            <collapsible>true</collapsible>
+            <label translate="true">General</label>
+        </settings>
+        <field name="is_modal_active" sortOrder="99" formElement="checkbox">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">page</item>
+                    <item name="default" xsi:type="number">0</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>boolean</dataType>
+                <label translate="true">Enable Modal</label>
+                <dataScope>is_modal_active</dataScope>
+            </settings>
+            <formElements>
+                <checkbox>
+                    <settings>
+                        <valueMap>
+                            <map name="false" xsi:type="number">0</map>
+                            <map name="true" xsi:type="number">1</map>
+                        </valueMap>
+                        <prefer>toggle</prefer>
+                    </settings>
+                </checkbox>
+            </formElements>
+        </field>
+    </fieldset>
+</form>
