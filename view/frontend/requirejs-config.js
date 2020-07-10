@@ -1,6 +1,6 @@
 var config = {
     paths: {
-        'modals': "Kwik_CmsModals/js/modals"
+        'modals': "JMC_CmsModals/js/modals"
     },
     shim: {
         'modals': {

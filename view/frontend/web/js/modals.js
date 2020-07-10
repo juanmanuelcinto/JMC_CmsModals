@@ -1,3 +1,7 @@
+/**
+ * Copyright ©   All rights reserved.
+ * See COPYING.txt for license details.
+ */
 require(
     [
         'jquery',
@@ -13,7 +17,7 @@ require(
             innerScroll: true,
             buttons: [{
                 text: $.mage.__('Continue'),
-                class: 'mymodal1',
+                class: 'jmc-modal',
                 click: function () {
                     this.closeModal();
                 }

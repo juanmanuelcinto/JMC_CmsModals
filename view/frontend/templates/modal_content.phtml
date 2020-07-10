@@ -1,21 +1,14 @@
 <!--
 /**
- * Cms Modals
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade this extension to newer
- * version in the future.
- *
- * @category    Kwik
- * @package     Kwik_CmsModals
+ * Copyright ©   All rights reserved.
+ * See COPYING.txt for license details.
  */
 -->
 <?php $isActive = $block->getCmsPageModalIsActive(); ?>
 <?php if ($isActive): ?>
     <?php $content = $block->getCmsPageModalContent(); ?>
         <div data-mage-init='{"modals": {}}'></div>
-        <div id="popup-modal">
+        <div id="popup-modal" style="display: none;">
             <?php echo $content ?>
         </div>
 <?php endif; ?>

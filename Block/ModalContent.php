@@ -1,17 +1,11 @@
 <?php
 /**
- * Cms Modals
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade this extension to newer
- * version in the future.
- *
- * @category    Kwik
- * @package     Kwik_CmsModals
+ * Copyright ©   All rights reserved.
+ * See COPYING.txt for license details.
  */
+declare(strict_types=1);
 
-namespace Kwik\CmsModals\Block;
+namespace JMC\CmsModals\Block;
 
 /**
  * @author Juan Manuel Cinto <juanmanuelcinto@hotmail.com>

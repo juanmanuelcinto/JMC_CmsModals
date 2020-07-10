@@ -1,21 +1,14 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Cms Modals
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade this extension to newer
- * version in the future.
- *
- * @category    Kwik
- * @package     Kwik_CmsModals
+ * Copyright ©   All rights reserved.
+ * See COPYING.txt for license details.
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Kwik\CmsModals\Block\ModalContent" name="cms.page.modal.content" template="Kwik_CmsModals::modal_content.phtml" after="cms_page" />
+            <block class="JMC\CmsModals\Block\ModalContent" name="cms.page.modal.content" template="JMC_CmsModals::modal_content.phtml" after="cms_page" />
         </referenceContainer>
     </body>
 </page>
