@@ -25,9 +25,11 @@ This module allows you to add a modal to any cms page and edit the content of it
 1. Choose the Cms Page that will contain the modal
 
 ![Choose](sample/choose.png)
+
 2. Enable modal on that Cms Page
 
 ![Enable](sample/enable.png)
+
 3. Edit the content of the modal
 
 ![Enable](sample/edit.png)
