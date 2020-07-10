@@ -1,4 +1,4 @@
-# Mage2 Module JMC CmsModals
+# Magento 2 CMS Modals
 
     ``jmc/module-cmsmodals``
 
